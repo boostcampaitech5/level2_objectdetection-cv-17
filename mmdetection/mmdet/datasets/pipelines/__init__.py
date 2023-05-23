@@ -15,7 +15,7 @@ from .transforms import (Albu, CopyPaste, CutOut, Expand, MinIoURandomCrop,
                          RandomAffine, RandomCenterCropPad, RandomCrop,
                          RandomFlip, RandomShift, Resize, SegRescale,
                          YOLOXHSVRandomAug)
-
+from Augmentation.Custom_augmentation import GaussianNoise
 __all__ = [
     'Compose', 'to_tensor', 'ToTensor', 'ImageToTensor', 'ToDataContainer',
     'Transpose', 'Collect', 'DefaultFormatBundle', 'LoadAnnotations',
@@ -27,5 +27,5 @@ __all__ = [
     'AutoAugment', 'CutOut', 'Shear', 'Rotate', 'ColorTransform',
     'EqualizeTransform', 'BrightnessTransform', 'ContrastTransform',
     'Translate', 'RandomShift', 'Mosaic', 'MixUp', 'RandomAffine',
-    'YOLOXHSVRandomAug', 'CopyPaste'
+    'YOLOXHSVRandomAug', 'CopyPaste', 'GaussianNoise'
 ]
