@@ -1,7 +1,12 @@
 ## level2_ObjectDetection_cv17_sixseg
 ### 재활용 품목 분류를 위한 Object Detection
-#### Members
+<img width="80%" src="https://github.com/boostcampaitech5/level2_objectdetection-cv-17/assets/70469008/e9e5e718-a136-4433-9732-0cd210b71820"/>
+사진에서 쓰레기를 Detection 하는 모델을 만들어 '쓰레기 대란', '매립지 부족'과 같은 여러 사회 문제을 해결해보고자 합니다.
+해당 모델은 쓰레기장에 설치되어 정확한 분리수거를 돕거나, 어린아이들의 분리수거 교육 등에 사용될 수 있을 것입니다.
+부디 지구를 위기로부터 구해주세요! 🌎
 
+
+#### Team Members
 강대호
 강정우
 박혜나
@@ -9,8 +14,8 @@
 원유석
 정대훈
 
-#### 실험 진행 순서
 
+#### 실험 진행 순서
 - EDA
 - select pretrained model (2 stage, 1 stage)
 - data augmentation
@@ -18,14 +23,16 @@
 - TTA
 - ensemble
 
-#### 최종 활용 모델
 
+#### 최종 활용 모델
 1. faster R-CNN
 2. retinaNet
 3. yolo_v8
 
-#### Wrap up Report
-https://www.notion.so/_CV_-17-bf0ef1d1236144f59028f9c8a48da215
+
+#### Wrap-up Report
+https://drive.google.com/file/d/1ulYuJpxpaAYhkGpdKQsEPm2xAiv9fMH6/view?usp=sharing
+
 
 #### Dataset
 - number of images : 9754
@@ -34,6 +41,7 @@ https://www.notion.so/_CV_-17-bf0ef1d1236144f59028f9c8a48da215
 - number of class : 10 
 - labels : General trash, Paper, Paper pack, Metal, Glass, Plastic, Styrofoam, Plastic bag, Battery, Clothing
 - image size : (1024, 1024)
+
 
 #### annotation file
 - coco format (images, annotations)
