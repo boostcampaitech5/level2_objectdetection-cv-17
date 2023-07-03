@@ -36,6 +36,10 @@
 
 https://drive.google.com/file/d/1ulYuJpxpaAYhkGpdKQsEPm2xAiv9fMH6/view?usp=sharing
 
+#### 평가 Metric
+
+- mAP50(Mean Average Precision)
+
 #### Dataset
 
 - number of images : 9754
@@ -49,7 +53,7 @@ https://drive.google.com/file/d/1ulYuJpxpaAYhkGpdKQsEPm2xAiv9fMH6/view?usp=shari
 
 - coco format (images, annotations)
   - images
-    - id: 파일 안에서 image 고유 id, ex) 1
+    - id: 파일 내 image 고유 id, ex) 1
     - height: 1024
     - width: 1024
     - filename: ex) train/002.jpg
